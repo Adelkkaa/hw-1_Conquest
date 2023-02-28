@@ -1,0 +1,61 @@
+.news-company {
+    &__wrapper {
+        margin-top: 81px;
+        display: flex;
+        align-items: center;
+    }
+    &__left {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    &__text {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.35vw; //32px
+        line-height: 43px;
+        color: #1B1A17; 
+    }
+
+    &__description {
+        margin-top: 3vw;
+        max-width: 28vw; // 376px
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.17vw; // 16px
+        line-height: 27px;
+        color: #444240;
+    }
+
+    &__logos {
+        margin-top: 8.6vw;
+        display: flex;
+        gap: 18px;
+    }
+
+    &__right {
+        width: 50vw;
+        height: 33.675vw;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 10px;
+
+        :nth-child(2) {
+            width: 27.599vw;
+            height: 33.692vw;
+            grid-row: span 2;
+        }
+        :nth-child(1) {
+            width: 17.716vw;
+            height: 16.6999vw;
+        }
+        :nth-child(3) {
+            width: 17.716vw;
+            height: 16.252vw;
+        }
+
+    }
+}

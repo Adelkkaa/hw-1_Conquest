@@ -1,0 +1,27 @@
+@media  screen and (min-width: 1367px) {
+    .container {
+        padding: 0 100px;
+    }
+    .page-footer {
+        padding: 0 80px;
+    }
+}
+
+@media  screen and (max-width: 820px) {
+    .promo-img__before {
+        display: none;
+    }
+    .promo-img__after {
+        display: none;
+    }
+    .promo-wrapper__line {
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 559px) {
+    .page-header {
+        flex-direction: column;
+        gap: 2vw;
+    }
+}
